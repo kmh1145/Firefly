@@ -23,31 +23,40 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
+		title: "宁宁云",
 		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
+			"https://nnyunidc.com/themes/web/nnyun-web/assets/img/favicon.ico",
+		desc: "优质的idc服务商，提供高性价比的云服务器、VPS、独立服务器等产品。",
+		siteurl: "https://nnyunidc.com",
+		tags: ["IDC"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
+		title: "mikus blog",
+		imgurl: "https://image.mikus.ink/uploads/kmh12345/2026/07/25/47c3cfc4b653.webp",
+		desc: "欢迎来到mikus的博客！",
+		siteurl: "https://blog.mikus.ink",
+		tags: ["blog"],
 		weight: 9,
 		enabled: true,
 	},
 	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
-		weight: 8,
+		title: "zyxblog",
+		imgurl: "https://zyx-blog.top/avatar.jpg",
+		desc: "arch大佬这一块",
+		siteurl: "https://zyx-blog.top",
+		tags: ["blog"],
+		weight: 9,
+		enabled: true,
+	},
+		{
+		title: "橘贝Blog",
+		imgurl: "https://blog.gbjimmy.com/assets/avatar/avatar.webp",
+		desc: "一个东方、型月爱好者",
+		siteurl: "https://blog.gbjimmy.com",
+		tags: ["blog"],
+		weight: 9,
 		enabled: true,
 	},
 ];

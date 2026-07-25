@@ -1,6 +1,6 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是 **昆明湖**。
 
 ## 🛠️ 关于本站
 
@@ -19,7 +19,7 @@
 
 **⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
 
-::github{repo="CuteLeaf/Firefly"}
+::github{repo="kmh1145/Firefly"}
 
 ::github{repo="saicaca/fuwari"}
 

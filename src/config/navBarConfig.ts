@@ -53,6 +53,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:person",
 		children: [
+			// 关于页面
+			LinkPresets.About,
 			// 动态
 			LinkPresets.Dynamic,
 
@@ -67,7 +69,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 关于及其子菜单
+	/* 关于及其子菜单
 	links.push({
 		name: "关于",
 		url: "#",
@@ -79,7 +81,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 关于页面
 			LinkPresets.About,
 		],
-	});
+	});*/
 
 	// 自定义导航栏链接
 	links.push({
@@ -89,28 +91,22 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		// 子菜单
 		children: [
 			{
-				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				name: "umami统计",
+				url: "https://cloud.umami.is/share/ARDr5CclmJsSlGNC",
 				external: true,
-				icon: "fa7-brands:github",
+				icon: "fa7-solid:chart-simple",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "探针",
+				url: "https://stat.080920.xyz",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "fa7-solid:line-chart",
 			},
 			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				name: "宁宁云",
+				url: "https://nnyunidc.com",
 				external: true,
-				icon: "fa7-brands:qq",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
+				icon: "fa7-solid:server",
 			},
 		],
 	});
@@ -181,7 +177,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "guestbook",
 	},
 	About: {
-		name: "关于我",
+		name: "关于",
 		url: "/about/",
 		icon: "material-symbols:person",
 	},
