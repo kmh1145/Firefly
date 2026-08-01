@@ -1,13 +1,13 @@
 {
 	"Version": 3,
 	"FileReferences": {
-		"Moc": "八千代辉夜姬.moc3",
+		"Moc": "yachiyo.moc3",
 		"Textures": [
-			"八千代辉夜姬.8192/texture_00.png",
-			"八千代辉夜姬.8192/texture_01.png"
+			"yachiyo.8192/texture_00.png",
+			"yachiyo.8192/texture_01.png"
 		],
-		"Physics": "八千代辉夜姬.physics3.json",
-		"DisplayInfo": "八千代辉夜姬.cdi3.json"
+		"Physics": "yachiyo.physics3.json",
+		"DisplayInfo": "yachiyo.cdi3.json"
 	},
 	"Groups": [
 		{

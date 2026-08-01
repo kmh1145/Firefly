@@ -1,10 +1,10 @@
 {
     "Version": 1,
-    "Name": "【雪熊企划】八千代辉夜姬",
+    "Name": "yachiyo",
     "ModelID": "17616156f74a469a9372bce87bd2525d",
     "FileReferences": {
-        "Icon": "八千代辉夜姬头像1.png",
-        "Model": "八千代辉夜姬.model3.json",
+        "Icon": "yachiyo_avatar.png",
+        "Model": "yachiyo.model3.json",
         "IdleAnimation": "",
         "IdleAnimationWhenTrackingLost": ""
     },
