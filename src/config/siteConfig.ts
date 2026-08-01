@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"昆明湖的博客，分享ACGN、技术、生活等内容。",
+		"昆明湖的个人博客，主要分享ACGN、技术、生活等内容。欢迎各位同好互相交流",
 
 	// 站点关键词
 	keywords: [
