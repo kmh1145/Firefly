@@ -205,7 +205,7 @@ export const siteConfig: SiteConfig = {
 		// Bangumi API 地址
 		apiUrl: "https://bgmapi.anibt.net",
 		// 详情页地址
-		subjectBaseUrl: "https://bgmmi.anibt.net/subject/",
+		subjectBaseUrl: "https://bgm.tv/subject/",
 		// 条目类型排序，数组中的类型将按顺序优先展示
 		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
 		// 未列出的类型将按默认顺序排在后面
